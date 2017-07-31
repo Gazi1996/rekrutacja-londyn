@@ -1,0 +1,56 @@
+*
+{
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.single-post
+{
+    padding: 20px;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+#posts-list h2
+{
+    color: #000;
+    text-transform: uppercase;
+}
+
+single-post p
+{
+    color: #2f2f2f;
+}
+
+.single-post footer
+{
+	background-color: cornflowerblue;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#get-posts 
+{
+	background-color: #1d9800;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.2em;
+    padding: 5px;
+    border: 0px solid transparent;
+    cursor: pointer;
+    transition: all, .3s;
+    
+}
+
+#get-posts:hover
+{
+	background-color: #25b104;
+}
+
+
